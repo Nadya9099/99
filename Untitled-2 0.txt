@@ -1,0 +1,10 @@
+var a,b:integer;
+Begin
+Writeln('Введите 2 заданых числа');
+Readln(a);
+Readln(b);
+if a>b then b:=10
+else a:=10;
+writeln(a);
+writeln(b);
+end.

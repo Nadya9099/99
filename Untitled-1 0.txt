@@ -1,0 +1,8 @@
+var a:integer;
+Begin
+Writeln('Введите число');
+Readln(a);
+if a>0 then writeln('Число положительно');
+if a=0 then writeln('Число является 0-эм');
+if a<0 then writeln('Число отрицательно');
+end.
